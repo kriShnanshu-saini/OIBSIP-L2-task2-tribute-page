@@ -1,0 +1,27 @@
+:root {
+    --bck: #eeeeee;
+    --wht: #ffffff;
+    --txt: #333333;
+    --lnk: #477ca7;
+    --lnk-hover: rgba(71, 124, 167, 0.8);
+  }
+  
+  /* main */
+  main {
+      background: var(--bck);
+      /* footer */
+    }
+    main .header__bottom {
+      background-color: #333333;
+    background: var(--wht);
+  }
+  main .footer h2 {
+    font-size: 1.2rem;
+  }
+  main .footer h2 a {
+    color: var(--lnk);
+    transition: 0.3s ease;
+  }
+  main .footer h2 a:hover {
+    color: var(--lnk-hover);
+  }
